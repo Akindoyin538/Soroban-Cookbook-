@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Development Workflow - Soroban Cookbook</title>
+        <title>Token Security Checklist - Soroban Cookbook</title>
 
 
         <!-- Custom HTML head -->
@@ -35,10 +35,10 @@
             const path_to_root = "../";
             const default_light_theme = "rust";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "../searchindex-41d423df.js";
+            window.path_to_searchindex_js = "../searchindex-1f80b024.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="../toc-ba8784cb.js"></script>
+        <script src="../toc-4ff7a94e.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -143,10 +143,10 @@
                         <a href="../print.html" title="Print this book" aria-label="Print this book">
                             <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
                         </a>
-                        <a href="https://github.com/Soroban-Cookbook/Soroban-Cookbook-" title="Git repository" aria-label="Git repository">
+                        <a href="https://github.com/Soroban-Cookbook/Soroban-Cookbook" title="Git repository" aria-label="Git repository">
                             <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span>
                         </a>
-                        <a href="https://github.com/Soroban-Cookbook/Soroban-Cookbook-/edit/main/book/src/contributing/development-workflow.md" title="Suggest an edit" aria-label="Suggest an edit" rel="edit">
+                        <a href="https://github.com/Soroban-Cookbook/Soroban-Cookbook/edit/main/book/src/docs/token-security-checklist.md" title="Suggest an edit" aria-label="Suggest an edit" rel="edit">
                             <span class=fa-svg id="git-edit-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M421.7 220.3l-11.3 11.3-22.6 22.6-205 205c-6.6 6.6-14.8 11.5-23.8 14.1L30.8 511c-8.4 2.5-17.5 .2-23.7-6.1S-1.5 489.7 1 481.2L38.7 353.1c2.6-9 7.5-17.2 14.1-23.8l205-205 22.6-22.6 11.3-11.3 33.9 33.9 62.1 62.1 33.9 33.9zM96 353.9l-9.3 9.3c-.9 .9-1.6 2.1-2 3.4l-25.3 86 86-25.3c1.3-.4 2.5-1.1 3.4-2l9.3-9.3H112c-8.8 0-16-7.2-16-16V353.9zM453.3 19.3l39.4 39.4c25 25 25 65.5 0 90.5l-14.5 14.5-22.6 22.6-11.3 11.3-33.9-33.9-62.1-62.1L314.3 67.7l11.3-11.3 22.6-22.6 14.5-14.5c25-25 65.5-25 90.5 0z"/></svg></span>
                         </a>
 
@@ -180,17 +180,194 @@
 
                 <div id="mdbook-content" class="content">
                     <main>
-                        <h1 id="development-workflow"><a class="header" href="#development-workflow">Development Workflow</a></h1>
+                        <h1 id="token-security-checklist"><a class="header" href="#token-security-checklist">Token Security Checklist</a></h1>
+<p>A comprehensive security checklist for Soroban token smart contracts (including SEP-41 compliant tokens, mintable/burnable tokens, token wrappers, and multi-token balance managers).</p>
+<hr>
+<h2 id="table-of-contents"><a class="header" href="#table-of-contents">Table of Contents</a></h2>
+<ol>
+<li><a href="#1-authorization--access-control">Authorization &amp; Access Control</a></li>
+<li><a href="#2-arithmetic-safety--numerical-integrity">Arithmetic Safety &amp; Numerical Integrity</a></li>
+<li><a href="#3-supply-management--mintburn-controls">Supply Management &amp; Mint/Burn Controls</a></li>
+<li><a href="#4-transfer--allowance-validation">Transfer &amp; Allowance Validation</a></li>
+<li><a href="#5-storage-strategy--ttl-lifecycle">Storage Strategy &amp; TTL Lifecycle</a></li>
+<li><a href="#6-event-emission--auditability">Event Emission &amp; Auditability</a></li>
+<li><a href="#7-testing-requirements">Testing Requirements</a></li>
+<li><a href="#8-audit-deployment--verification-record">Audit, Deployment &amp; Verification Record</a></li>
+</ol>
+<hr>
+<h2 id="1-authorization--access-control"><a class="header" href="#1-authorization--access-control">1. Authorization &amp; Access Control</a></h2>
+<p>Token operations involve direct manipulation of user balances and privileged supply parameters. Authorization must be explicitly verified on all entry points.</p>
+<h3 id="11-direct-user-authorization"><a class="header" href="#11-direct-user-authorization">1.1 Direct User Authorization</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <strong>Transfer authentication:</strong> <code>transfer(from, to, amount)</code> strictly requires authentication from the debit account (<code>from.require_auth()</code>).</li>
+<li><input disabled="" type="checkbox"> <strong>Delegated transfer authentication:</strong> <code>transfer_from(spender, from, to, amount)</code> strictly verifies <code>spender.require_auth()</code> and validates sufficient non-expired allowance granted by <code>from</code>.</li>
+<li><input disabled="" type="checkbox"> <strong>Burn authentication:</strong> <code>burn(from, amount)</code> strictly requires authentication from the token owner (<code>from.require_auth()</code>).</li>
+<li><input disabled="" type="checkbox"> <strong>Delegated burn authentication:</strong> <code>burn_from(spender, from, amount)</code> requires <code>spender.require_auth()</code> and consumes an authorized allowance.</li>
+<li><input disabled="" type="checkbox"> <strong>Approval authentication:</strong> <code>approve(from, spender, amount, expiration_ledger)</code> requires <code>from.require_auth()</code>.</li>
+<li><input disabled="" type="checkbox"> <strong>Argument binding:</strong> Use <code>require_auth_for_args</code> where granular call-parameter authorization is mandated.</li>
+</ul>
+<h3 id="12-administrative--privileged-roles"><a class="header" href="#12-administrative--privileged-roles">1.2 Administrative &amp; Privileged Roles</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <strong>Admin role restriction:</strong> Privileged operations (<code>set_admin</code>, <code>mint</code>, <code>clawback</code>, <code>pause</code>, <code>unpause</code>) verify caller authentication against the stored admin address.</li>
+<li><input disabled="" type="checkbox"> <strong>Multi-sig / Governance protection:</strong> High-impact administrative keys (e.g., minter, treasury admin) use multisignature or DAO timelock governance.</li>
+<li><input disabled="" type="checkbox"> <strong>Role separation:</strong> Minting, emergency pausing, and admin metadata management roles are distinct where appropriate (Principle of Least Privilege).</li>
+<li><input disabled="" type="checkbox"> <strong>Two-step ownership transfer:</strong> Admin updates use a two-step <code>propose_admin</code> / <code>accept_admin</code> workflow to prevent accidental transfer to unrecoverable addresses.</li>
+<li><input disabled="" type="checkbox"> <strong>No hidden backdoors:</strong> Ensure no hardcoded developer keys or unverified bypass paths exist in authorization logic.</li>
+</ul>
+<hr>
+<h2 id="2-arithmetic-safety--numerical-integrity"><a class="header" href="#2-arithmetic-safety--numerical-integrity">2. Arithmetic Safety &amp; Numerical Integrity</a></h2>
+<p>Token balances and allowances must be protected against arithmetic vulnerabilities and precision truncation.</p>
+<h3 id="21-checked-operations--safe-math"><a class="header" href="#21-checked-operations--safe-math">2.1 Checked Operations &amp; Safe Math</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <strong>Overflow/Underflow prevention:</strong> All additions and subtractions on balances and allowances use checked math (<code>checked_add</code>, <code>checked_sub</code>, <code>checked_mul</code>, <code>checked_div</code>) or panic-safe integer primitives (<code>i128</code>).</li>
+<li><input disabled="" type="checkbox"> <strong>Positive amount enforcement:</strong> All mutating functions (<code>transfer</code>, <code>transfer_from</code>, <code>mint</code>, <code>burn</code>, <code>approve</code>, <code>clawback</code>) enforce strictly positive amounts (<code>amount &gt; 0</code>). Zero or negative values are explicitly rejected or handled safely.</li>
+<li><input disabled="" type="checkbox"> <strong>Balance subtraction order:</strong> Debits must always verify that <code>balance &gt;= amount</code> before performing the subtraction.</li>
+<li><input disabled="" type="checkbox"> <strong>Allowance subtraction order:</strong> <code>transfer_from</code> and <code>burn_from</code> verify <code>allowance &gt;= amount</code> before deducting the allowance.</li>
+</ul>
+<h3 id="22-decimal--precision-handling"><a class="header" href="#22-decimal--precision-handling">2.2 Decimal &amp; Precision Handling</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <strong>Decimals consistency:</strong> Token decimal precision (typically <code>7</code> for Stellar SEP-41 standard, or <code>18</code> for EVM compatibility) is immutably defined or strictly validated.</li>
+<li><input disabled="" type="checkbox"> <strong>Rounding bias:</strong> In fee calculations or reward distributions, rounding favors the protocol/pool to prevent micro-drain attacks.</li>
+<li><input disabled="" type="checkbox"> <strong>Division by zero:</strong> Any division operation (e.g., fee rates, exchange conversions) explicitly checks for zero divisor prior to execution.</li>
+</ul>
+<hr>
+<h2 id="3-supply-management--mintburn-controls"><a class="header" href="#3-supply-management--mintburn-controls">3. Supply Management &amp; Mint/Burn Controls</a></h2>
+<p>Maintaining invariant balance between total supply and circulating tokens is vital for economic stability.</p>
+<h3 id="31-total-supply-invariants"><a class="header" href="#31-total-supply-invariants">3.1 Total Supply Invariants</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <strong>Supply invariant:</strong> At all times, <code>total_supply == sum(all_circulating_balances)</code>.</li>
+<li><input disabled="" type="checkbox"> <strong>Hard cap constraints:</strong> If a maximum supply cap is defined, <code>mint</code> operations verify <code>total_supply.checked_add(amount) &lt;= max_supply</code>.</li>
+<li><input disabled="" type="checkbox"> <strong>Supply accounting on mint:</strong> Minting strictly increments both the recipient’s balance and the global <code>total_supply</code> atomically.</li>
+<li><input disabled="" type="checkbox"> <strong>Supply accounting on burn:</strong> Burning strictly decrements both the target’s balance and the global <code>total_supply</code> atomically.</li>
+</ul>
+<h3 id="32-emission-curves--timelocks"><a class="header" href="#32-emission-curves--timelocks">3.2 Emission Curves &amp; Timelocks</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <strong>Mint rate limiting:</strong> Large supply expansions are rate-limited or subject to governance timelocks.</li>
+<li><input disabled="" type="checkbox"> <strong>Snapshot consistency:</strong> For snapshot tokens, historical balances and total supply snapshots are recorded immutably and cannot be overwritten retroactively.</li>
+</ul>
+<h3 id="33-regulated-assets--clawback-security"><a class="header" href="#33-regulated-assets--clawback-security">3.3 Regulated Assets &amp; Clawback Security</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <strong>Clawback flag verification:</strong> Clawback capability (<code>clawback(admin, from, amount)</code>) is explicitly enabled at contract initialization and transparent to token holders.</li>
+<li><input disabled="" type="checkbox"> <strong>Clawback authorization:</strong> Only designated and authenticated clawback administrators can execute clawbacks.</li>
+<li><input disabled="" type="checkbox"> <strong>Balance reduction on clawback:</strong> Clawback burns or moves tokens with strict balance and total supply reconciliation.</li>
+</ul>
+<hr>
+<h2 id="4-transfer--allowance-validation"><a class="header" href="#4-transfer--allowance-validation">4. Transfer &amp; Allowance Validation</a></h2>
+<p>Transfer logic is the most frequently called code path and requires rigorous state validation.</p>
+<h3 id="41-transfer-execution"><a class="header" href="#41-transfer-execution">4.1 Transfer Execution</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <strong>Self-transfer safety:</strong> Handling <code>from == to</code> does not cause double-spend, balance corruption, or arithmetic underflow.</li>
+<li><input disabled="" type="checkbox"> <strong>Sufficient balance check:</strong> Verifies <code>from_balance &gt;= amount</code> and emits descriptive errors (e.g., <code>ContractError::InsufficientBalance</code>) upon failure.</li>
+<li><input disabled="" type="checkbox"> <strong>State mutation atomicity:</strong> Balance updates and allowance deductions are committed atomically; failed conditions abort the entire transaction.</li>
+</ul>
+<h3 id="42-allowance--approval-lifecycle"><a class="header" href="#42-allowance--approval-lifecycle">4.2 Allowance &amp; Approval Lifecycle</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <strong>Expiration ledger validation:</strong> <code>allowance.expiration_ledger &gt;= env.ledger().sequence()</code> is verified on every <code>transfer_from</code> and <code>burn_from</code>. Expired allowances are treated as zero.</li>
+<li><input disabled="" type="checkbox"> <strong>Approval overwrite safety:</strong> <code>approve</code> properly updates or overwrites both amount and expiration ledger without leaving dangling allowances.</li>
+<li><input disabled="" type="checkbox"> <strong>Race condition mitigation:</strong> Documentation and helper patterns (<code>increase_allowance</code> / <code>decrease_allowance</code>) are provided to mitigate front-running on allowance changes.</li>
+<li><input disabled="" type="checkbox"> <strong>Zero allowance reset:</strong> Setting allowance to <code>0</code> or expired ledger properly cleans up or disables the allowance.</li>
+</ul>
+<hr>
+<h2 id="5-storage-strategy--ttl-lifecycle"><a class="header" href="#5-storage-strategy--ttl-lifecycle">5. Storage Strategy &amp; TTL Lifecycle</a></h2>
+<p>Soroban smart contracts manage state across Instance, Persistent, and Temporary storage tiers with active Time-To-Live (TTL) policies.</p>
+<h3 id="51-storage-type-selection"><a class="header" href="#51-storage-type-selection">5.1 Storage Type Selection</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <strong>Instance storage:</strong> Used for global token metadata (<code>name</code>, <code>symbol</code>, <code>decimals</code>), admin address, and <code>total_supply</code>.</li>
+<li><input disabled="" type="checkbox"> <strong>Persistent storage:</strong> Used for user balances and allowances to ensure long-term availability.</li>
+<li><input disabled="" type="checkbox"> <strong>Temporary storage:</strong> Used strictly for short-lived nonces or transient multi-step signatures.</li>
+</ul>
+<h3 id="52-ttl-extension--archival-protection"><a class="header" href="#52-ttl-extension--archival-protection">5.2 TTL Extension &amp; Archival Protection</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <strong>Instance TTL extension:</strong> Contract extends instance TTL during state-mutating calls (<code>env.storage().instance().extend_ttl(...)</code>).</li>
+<li><input disabled="" type="checkbox"> <strong>Balance TTL extension:</strong> User balance entries have their TTL extended upon every transfer, mint, or balance query (<code>env.storage().persistent().extend_ttl(&amp;key, ...)</code>).</li>
+<li><input disabled="" type="checkbox"> <strong>Allowance TTL alignment:</strong> Allowance expiration ledger is bounded within safe TTL extension windows.</li>
+<li><input disabled="" type="checkbox"> <strong>Restoration handling:</strong> Clear documentation on how archived entries can be restored via ledger footprint bump operations.</li>
+</ul>
+<hr>
+<h2 id="6-event-emission--auditability"><a class="header" href="#6-event-emission--auditability">6. Event Emission &amp; Auditability</a></h2>
+<p>Events enable off-chain indexers, wallets, and block explorers to track state transitions reliably.</p>
+<h3 id="61-standard-sep-41-event-topics"><a class="header" href="#61-standard-sep-41-event-topics">6.1 Standard SEP-41 Event Topics</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <strong>Transfer events:</strong> Emits <code>transfer(from: Address, to: Address, amount: i128)</code> with indexed <code>from</code> and <code>to</code> topics.</li>
+<li><input disabled="" type="checkbox"> <strong>Mint events:</strong> Emits <code>mint(admin: Address, to: Address, amount: i128)</code>.</li>
+<li><input disabled="" type="checkbox"> <strong>Burn events:</strong> Emits <code>burn(from: Address, amount: i128)</code>.</li>
+<li><input disabled="" type="checkbox"> <strong>Approve events:</strong> Emits <code>approve(from: Address, spender: Address, amount: i128, expiration_ledger: u32)</code>.</li>
+<li><input disabled="" type="checkbox"> <strong>Admin events:</strong> Emits <code>set_admin(old_admin: Address, new_admin: Address)</code> on ownership handover.</li>
+<li><input disabled="" type="checkbox"> <strong>Clawback events:</strong> Emits <code>clawback(admin: Address, from: Address, amount: i128)</code>.</li>
+</ul>
+<hr>
+<h2 id="7-testing-requirements"><a class="header" href="#7-testing-requirements">7. Testing Requirements</a></h2>
+<p>A production token contract must be verified with comprehensive unit, integration, and fuzz testing suites.</p>
+<h3 id="71-unit-testing-coverage"><a class="header" href="#71-unit-testing-coverage">7.1 Unit Testing Coverage</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <strong>Standard operations:</strong> Full test coverage for <code>initialize</code>, <code>balance</code>, <code>allowance</code>, <code>transfer</code>, <code>transfer_from</code>, <code>approve</code>, <code>mint</code>, <code>burn</code>, <code>decimals</code>, <code>name</code>, <code>symbol</code>.</li>
+<li><input disabled="" type="checkbox"> <strong>Authorization negative tests:</strong> Tests verifying that unauthorized accounts cannot transfer, mint, burn, approve, or claim admin roles.</li>
+<li><input disabled="" type="checkbox"> <strong>Boundary condition tests:</strong>
+<ul>
+<li>Zero amount transfers / approvals.</li>
+<li>Maximum integer (<code>i128::MAX</code>) transfers and mints.</li>
+<li>Transfers exceeding current balance by 1 unit.</li>
+<li><code>transfer_from</code> exceeding authorized allowance by 1 unit.</li>
+<li>Expired allowance attempts (advancing <code>env.ledger().set_sequence_number(...)</code>).</li>
+<li>Self-transfers (<code>from == to</code>).</li>
+</ul>
+</li>
+</ul>
+<h3 id="72-invariant--fuzz-testing"><a class="header" href="#72-invariant--fuzz-testing">7.2 Invariant &amp; Fuzz Testing</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <strong>Supply invariant test:</strong> Multi-step fuzzing of random sequences of <code>mint</code>, <code>transfer</code>, <code>transfer_from</code>, and <code>burn</code> asserting <code>total_supply == sum(balances)</code>.</li>
+<li><input disabled="" type="checkbox"> <strong>Solvency preservation:</strong> Asserting that no sequence of operations produces a negative balance.</li>
+</ul>
+<h3 id="73-integration--cross-contract-testing"><a class="header" href="#73-integration--cross-contract-testing">7.3 Integration &amp; Cross-Contract Testing</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> <strong>DEX / AMM integration:</strong> Verified compatibility with liquidity pool contracts (deposits, swaps, withdrawals).</li>
+<li><input disabled="" type="checkbox"> <strong>Lending &amp; Vault integration:</strong> Verified compatibility with flash loan and collateralized lending protocols.</li>
+<li><input disabled="" type="checkbox"> <strong>TTL extension verification:</strong> Simulating multiple ledger sequence advancements and verifying continuous entry readability.</li>
+</ul>
+<hr>
+<h2 id="8-audit-deployment--verification-record"><a class="header" href="#8-audit-deployment--verification-record">8. Audit, Deployment &amp; Verification Record</a></h2>
+<p>Before deploying to Stellar Testnet or Mainnet, record all audit parameters and sign-offs:</p>
+<h3 id="81-pre-deployment-verification"><a class="header" href="#81-pre-deployment-verification">8.1 Pre-Deployment Verification</a></h3>
+<ul>
+<li><input disabled="" type="checkbox"> Code passes formatting check: <code>cargo fmt --all -- --check</code></li>
+<li><input disabled="" type="checkbox"> Code passes Clippy with zero warnings: <code>cargo clippy --tests --lib -- -D warnings</code></li>
+<li><input disabled="" type="checkbox"> WASM size optimization verified: <code>cargo build --target wasm32-unknown-unknown --release</code> and <code>soroban contract optimize</code></li>
+<li><input disabled="" type="checkbox"> Security checklist fully reviewed and all items marked complete.</li>
+</ul>
+<h3 id="82-deployment-record-template"><a class="header" href="#82-deployment-record-template">8.2 Deployment Record Template</a></h3>
+<pre><code class="language-markdown">### 📋 Token Contract Deployment Record
+- **Contract Name:** [e.g., MySEP41Token]
+- **Target Network:** [Testnet / Mainnet]
+- **Contract ID:** `C...`
+- **Admin Public Address:** `G...`
+- **Initial Total Supply:** [e.g., 10,000,000.0000000]
+- **Decimals:** 7
+- **Soroban SDK Version:** [e.g., 22.0.0+]
+- **WASM Hash:** `...`
+- **Reviewed By:** [@reviewer1, @reviewer2]
+- **Audit Date:** YYYY-MM-DD
+- **Sign-off Status:** ✅ APPROVED FOR PRODUCTION
+</code></pre>
+<hr>
+<h2 id="related-resources"><a class="header" href="#related-resources">Related Resources</a></h2>
+<ul>
+<li><a href="../examples/tokens/01-sep41-token.html">SEP-41 Token Example</a></li>
+<li><a href="../examples/tokens/02-sep41-extensions.html">SEP-41 Extensions &amp; Allowances</a></li>
+<li><a href="../examples/tokens/03-optimized-operations.html">Pausable Token Pattern</a></li>
+<li><a href="./defi-security-checklist.html">DeFi Security Checklist</a></li>
+<li><a href="./governance-security-checklist.html">Governance Security Checklist</a></li>
+<li><a href="./security-best-practices.html">Security Best Practices</a></li>
+</ul>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../contributing/code-of-conduct.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../examples/tokens.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                             </a>
 
-                            <a rel="next prefetch" href="../examples/video-tutorials.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="../examples/tokens/01-sep41-token.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                             </a>
 
@@ -200,11 +377,11 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../contributing/code-of-conduct.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../examples/tokens.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                     </a>
 
-                    <a rel="next prefetch" href="../examples/video-tutorials.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="../examples/tokens/01-sep41-token.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                     </a>
             </nav>
